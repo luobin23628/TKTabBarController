@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB11F75F168A9BFE0006225F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB11F75E168A9BFE0006225F /* UIKit.framework */; };
+		AB11F761168A9BFE0006225F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB11F760168A9BFE0006225F /* Foundation.framework */; };
+		AB11F763168A9BFE0006225F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB11F762168A9BFE0006225F /* CoreGraphics.framework */; };
+		AB11F769168A9BFE0006225F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB11F767168A9BFE0006225F /* InfoPlist.strings */; };
+		AB11F76B168A9BFF0006225F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB11F76A168A9BFF0006225F /* main.m */; };
+		AB11F76F168A9BFF0006225F /* TKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB11F76E168A9BFF0006225F /* TKAppDelegate.m */; };
+		AB11F771168A9BFF0006225F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AB11F770168A9BFF0006225F /* Default.png */; };
+		AB11F773168A9BFF0006225F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB11F772168A9BFF0006225F /* Default@2x.png */; };
+		AB11F775168A9BFF0006225F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB11F774168A9BFF0006225F /* Default-568h@2x.png */; };
+		AB11F7B1168A9C250006225F /* TKTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AB11F7B0168A9C250006225F /* TKTabBarItem.m */; };
+		AB11F7B4168A9C470006225F /* TKTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB11F7B3168A9C470006225F /* TKTabBarController.m */; };
+		AB11F7B7168A9CD10006225F /* TKFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB11F7B6168A9CD10006225F /* TKFirstViewController.m */; };
+		AB11F7BA168A9CDD0006225F /* TKSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB11F7B9168A9CDD0006225F /* TKSecondViewController.m */; };
+		AB11F7BD168A9CE80006225F /* TKThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB11F7BC168A9CE80006225F /* TKThirdViewController.m */; };
+		AB11F7CB168A9EB20006225F /* bottom_tabbar1_n.png in Resources */ = {isa = PBXBuildFile; fileRef = AB11F7BF168A9EB20006225F /* bottom_tabbar1_n.png */; };
+		AB11F7CC168A9EB20006225F /* bottom_tabbar1_n@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB11F7C0168A9EB20006225F /* bottom_tabbar1_n@2x.png */; };
+		AB11F7CD168A9EB20006225F /* bottom_tabbar1_p.png in Resources */ = {isa = PBXBuildFile; fileRef = AB11F7C1168A9EB20006225F /* bottom_tabbar1_p.png */; };
+		AB11F7CE168A9EB20006225F /* bottom_tabbar1_p@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB11F7C2168A9EB20006225F /* bottom_tabbar1_p@2x.png */; };
+		AB11F7CF168A9EB20006225F /* bottom_tabbar2_n.png in Resources */ = {isa = PBXBuildFile; fileRef = AB11F7C3168A9EB20006225F /* bottom_tabbar2_n.png */; };
+		AB11F7D0168A9EB20006225F /* bottom_tabbar2_n@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB11F7C4168A9EB20006225F /* bottom_tabbar2_n@2x.png */; };
+		AB11F7D1168A9EB20006225F /* bottom_tabbar2_p.png in Resources */ = {isa = PBXBuildFile; fileRef = AB11F7C5168A9EB20006225F /* bottom_tabbar2_p.png */; };
+		AB11F7D2168A9EB20006225F /* bottom_tabbar2_p@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB11F7C6168A9EB20006225F /* bottom_tabbar2_p@2x.png */; };
+		AB11F7D3168A9EB20006225F /* bottom_tabbar3_n.png in Resources */ = {isa = PBXBuildFile; fileRef = AB11F7C7168A9EB20006225F /* bottom_tabbar3_n.png */; };
+		AB11F7D4168A9EB20006225F /* bottom_tabbar3_n@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB11F7C8168A9EB20006225F /* bottom_tabbar3_n@2x.png */; };
+		AB11F7D5168A9EB20006225F /* bottom_tabbar3_p.png in Resources */ = {isa = PBXBuildFile; fileRef = AB11F7C9168A9EB20006225F /* bottom_tabbar3_p.png */; };
+		AB11F7D6168A9EB20006225F /* bottom_tabbar3_p@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB11F7CA168A9EB20006225F /* bottom_tabbar3_p@2x.png */; };
+		AB11F7D9168AA7FB0006225F /* tabbar-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = AB11F7D7168AA7FB0006225F /* tabbar-bg.png */; };
+		AB11F7DA168AA7FB0006225F /* tabbar-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB11F7D8168AA7FB0006225F /* tabbar-bg@2x.png */; };
+		AB11F7DD168AAB440006225F /* tabbar-button-bg-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = AB11F7DB168AAB440006225F /* tabbar-button-bg-selected.png */; };
+		AB11F7DE168AAB440006225F /* tabbar-button-bg-selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB11F7DC168AAB440006225F /* tabbar-button-bg-selected@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB11F75A168A9BFE0006225F /* TKTabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TKTabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB11F75E168A9BFE0006225F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AB11F760168A9BFE0006225F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AB11F762168A9BFE0006225F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AB11F766168A9BFE0006225F /* CustomTabBarController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomTabBarController-Info.plist"; sourceTree = "<group>"; };
+		AB11F768168A9BFE0006225F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB11F76A168A9BFF0006225F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB11F76C168A9BFF0006225F /* CustomTabBarController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomTabBarController-Prefix.pch"; sourceTree = "<group>"; };
+		AB11F76D168A9BFF0006225F /* TKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKAppDelegate.h; sourceTree = "<group>"; };
+		AB11F76E168A9BFF0006225F /* TKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKAppDelegate.m; sourceTree = "<group>"; };
+		AB11F770168A9BFF0006225F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AB11F772168A9BFF0006225F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AB11F774168A9BFF0006225F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AB11F7AF168A9C250006225F /* TKTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKTabBarItem.h; sourceTree = "<group>"; };
+		AB11F7B0168A9C250006225F /* TKTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKTabBarItem.m; sourceTree = "<group>"; };
+		AB11F7B2168A9C470006225F /* TKTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKTabBarController.h; sourceTree = "<group>"; };
+		AB11F7B3168A9C470006225F /* TKTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKTabBarController.m; sourceTree = "<group>"; };
+		AB11F7B5168A9CD10006225F /* TKFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKFirstViewController.h; sourceTree = "<group>"; };
+		AB11F7B6168A9CD10006225F /* TKFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKFirstViewController.m; sourceTree = "<group>"; };
+		AB11F7B8168A9CDD0006225F /* TKSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKSecondViewController.h; sourceTree = "<group>"; };
+		AB11F7B9168A9CDD0006225F /* TKSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKSecondViewController.m; sourceTree = "<group>"; };
+		AB11F7BB168A9CE80006225F /* TKThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKThirdViewController.h; sourceTree = "<group>"; };
+		AB11F7BC168A9CE80006225F /* TKThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKThirdViewController.m; sourceTree = "<group>"; };
+		AB11F7BF168A9EB20006225F /* bottom_tabbar1_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottom_tabbar1_n.png; sourceTree = "<group>"; };
+		AB11F7C0168A9EB20006225F /* bottom_tabbar1_n@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bottom_tabbar1_n@2x.png"; sourceTree = "<group>"; };
+		AB11F7C1168A9EB20006225F /* bottom_tabbar1_p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottom_tabbar1_p.png; sourceTree = "<group>"; };
+		AB11F7C2168A9EB20006225F /* bottom_tabbar1_p@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bottom_tabbar1_p@2x.png"; sourceTree = "<group>"; };
+		AB11F7C3168A9EB20006225F /* bottom_tabbar2_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottom_tabbar2_n.png; sourceTree = "<group>"; };
+		AB11F7C4168A9EB20006225F /* bottom_tabbar2_n@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bottom_tabbar2_n@2x.png"; sourceTree = "<group>"; };
+		AB11F7C5168A9EB20006225F /* bottom_tabbar2_p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottom_tabbar2_p.png; sourceTree = "<group>"; };
+		AB11F7C6168A9EB20006225F /* bottom_tabbar2_p@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bottom_tabbar2_p@2x.png"; sourceTree = "<group>"; };
+		AB11F7C7168A9EB20006225F /* bottom_tabbar3_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottom_tabbar3_n.png; sourceTree = "<group>"; };
+		AB11F7C8168A9EB20006225F /* bottom_tabbar3_n@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bottom_tabbar3_n@2x.png"; sourceTree = "<group>"; };
+		AB11F7C9168A9EB20006225F /* bottom_tabbar3_p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottom_tabbar3_p.png; sourceTree = "<group>"; };
+		AB11F7CA168A9EB20006225F /* bottom_tabbar3_p@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bottom_tabbar3_p@2x.png"; sourceTree = "<group>"; };
+		AB11F7D7168AA7FB0006225F /* tabbar-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-bg.png"; sourceTree = "<group>"; };
+		AB11F7D8168AA7FB0006225F /* tabbar-bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-bg@2x.png"; sourceTree = "<group>"; };
+		AB11F7DB168AAB440006225F /* tabbar-button-bg-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-button-bg-selected.png"; sourceTree = "<group>"; };
+		AB11F7DC168AAB440006225F /* tabbar-button-bg-selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-button-bg-selected@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB11F757168A9BFE0006225F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB11F75F168A9BFE0006225F /* UIKit.framework in Frameworks */,
+				AB11F761168A9BFE0006225F /* Foundation.framework in Frameworks */,
+				AB11F763168A9BFE0006225F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB11F74F168A9BFE0006225F = {
+			isa = PBXGroup;
+			children = (
+				AB11F764168A9BFE0006225F /* CustomTabBarController */,
+				AB11F7BE168A9E9D0006225F /* Resources */,
+				AB11F75D168A9BFE0006225F /* Frameworks */,
+				AB11F75B168A9BFE0006225F /* Products */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		AB11F75B168A9BFE0006225F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB11F75A168A9BFE0006225F /* TKTabBarController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB11F75D168A9BFE0006225F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB11F75E168A9BFE0006225F /* UIKit.framework */,
+				AB11F760168A9BFE0006225F /* Foundation.framework */,
+				AB11F762168A9BFE0006225F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB11F764168A9BFE0006225F /* CustomTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				AB11F7B2168A9C470006225F /* TKTabBarController.h */,
+				AB11F7B3168A9C470006225F /* TKTabBarController.m */,
+				AB11F7AF168A9C250006225F /* TKTabBarItem.h */,
+				AB11F7B0168A9C250006225F /* TKTabBarItem.m */,
+				AB11F76D168A9BFF0006225F /* TKAppDelegate.h */,
+				AB11F76E168A9BFF0006225F /* TKAppDelegate.m */,
+				AB11F7B5168A9CD10006225F /* TKFirstViewController.h */,
+				AB11F7B6168A9CD10006225F /* TKFirstViewController.m */,
+				AB11F7B8168A9CDD0006225F /* TKSecondViewController.h */,
+				AB11F7B9168A9CDD0006225F /* TKSecondViewController.m */,
+				AB11F7BB168A9CE80006225F /* TKThirdViewController.h */,
+				AB11F7BC168A9CE80006225F /* TKThirdViewController.m */,
+				AB11F765168A9BFE0006225F /* Supporting Files */,
+			);
+			path = CustomTabBarController;
+			sourceTree = "<group>";
+		};
+		AB11F765168A9BFE0006225F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB11F766168A9BFE0006225F /* CustomTabBarController-Info.plist */,
+				AB11F767168A9BFE0006225F /* InfoPlist.strings */,
+				AB11F76A168A9BFF0006225F /* main.m */,
+				AB11F76C168A9BFF0006225F /* CustomTabBarController-Prefix.pch */,
+				AB11F770168A9BFF0006225F /* Default.png */,
+				AB11F772168A9BFF0006225F /* Default@2x.png */,
+				AB11F774168A9BFF0006225F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB11F7BE168A9E9D0006225F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AB11F7DB168AAB440006225F /* tabbar-button-bg-selected.png */,
+				AB11F7DC168AAB440006225F /* tabbar-button-bg-selected@2x.png */,
+				AB11F7D7168AA7FB0006225F /* tabbar-bg.png */,
+				AB11F7D8168AA7FB0006225F /* tabbar-bg@2x.png */,
+				AB11F7BF168A9EB20006225F /* bottom_tabbar1_n.png */,
+				AB11F7C0168A9EB20006225F /* bottom_tabbar1_n@2x.png */,
+				AB11F7C1168A9EB20006225F /* bottom_tabbar1_p.png */,
+				AB11F7C2168A9EB20006225F /* bottom_tabbar1_p@2x.png */,
+				AB11F7C3168A9EB20006225F /* bottom_tabbar2_n.png */,
+				AB11F7C4168A9EB20006225F /* bottom_tabbar2_n@2x.png */,
+				AB11F7C5168A9EB20006225F /* bottom_tabbar2_p.png */,
+				AB11F7C6168A9EB20006225F /* bottom_tabbar2_p@2x.png */,
+				AB11F7C7168A9EB20006225F /* bottom_tabbar3_n.png */,
+				AB11F7C8168A9EB20006225F /* bottom_tabbar3_n@2x.png */,
+				AB11F7C9168A9EB20006225F /* bottom_tabbar3_p.png */,
+				AB11F7CA168A9EB20006225F /* bottom_tabbar3_p@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB11F759168A9BFE0006225F /* TKTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB11F778168A9BFF0006225F /* Build configuration list for PBXNativeTarget "TKTabBarController" */;
+			buildPhases = (
+				AB11F756168A9BFE0006225F /* Sources */,
+				AB11F757168A9BFE0006225F /* Frameworks */,
+				AB11F758168A9BFE0006225F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TKTabBarController;
+			productName = CustomTabBarController;
+			productReference = AB11F75A168A9BFE0006225F /* TKTabBarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB11F751168A9BFE0006225F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TK;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = LuoBin;
+			};
+			buildConfigurationList = AB11F754168A9BFE0006225F /* Build configuration list for PBXProject "TKTabBarController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AB11F74F168A9BFE0006225F;
+			productRefGroup = AB11F75B168A9BFE0006225F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB11F759168A9BFE0006225F /* TKTabBarController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB11F758168A9BFE0006225F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB11F769168A9BFE0006225F /* InfoPlist.strings in Resources */,
+				AB11F771168A9BFF0006225F /* Default.png in Resources */,
+				AB11F773168A9BFF0006225F /* Default@2x.png in Resources */,
+				AB11F775168A9BFF0006225F /* Default-568h@2x.png in Resources */,
+				AB11F7CB168A9EB20006225F /* bottom_tabbar1_n.png in Resources */,
+				AB11F7CC168A9EB20006225F /* bottom_tabbar1_n@2x.png in Resources */,
+				AB11F7CD168A9EB20006225F /* bottom_tabbar1_p.png in Resources */,
+				AB11F7CE168A9EB20006225F /* bottom_tabbar1_p@2x.png in Resources */,
+				AB11F7CF168A9EB20006225F /* bottom_tabbar2_n.png in Resources */,
+				AB11F7D0168A9EB20006225F /* bottom_tabbar2_n@2x.png in Resources */,
+				AB11F7D1168A9EB20006225F /* bottom_tabbar2_p.png in Resources */,
+				AB11F7D2168A9EB20006225F /* bottom_tabbar2_p@2x.png in Resources */,
+				AB11F7D3168A9EB20006225F /* bottom_tabbar3_n.png in Resources */,
+				AB11F7D4168A9EB20006225F /* bottom_tabbar3_n@2x.png in Resources */,
+				AB11F7D5168A9EB20006225F /* bottom_tabbar3_p.png in Resources */,
+				AB11F7D6168A9EB20006225F /* bottom_tabbar3_p@2x.png in Resources */,
+				AB11F7D9168AA7FB0006225F /* tabbar-bg.png in Resources */,
+				AB11F7DA168AA7FB0006225F /* tabbar-bg@2x.png in Resources */,
+				AB11F7DD168AAB440006225F /* tabbar-button-bg-selected.png in Resources */,
+				AB11F7DE168AAB440006225F /* tabbar-button-bg-selected@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB11F756168A9BFE0006225F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB11F76B168A9BFF0006225F /* main.m in Sources */,
+				AB11F76F168A9BFF0006225F /* TKAppDelegate.m in Sources */,
+				AB11F7B1168A9C250006225F /* TKTabBarItem.m in Sources */,
+				AB11F7B4168A9C470006225F /* TKTabBarController.m in Sources */,
+				AB11F7B7168A9CD10006225F /* TKFirstViewController.m in Sources */,
+				AB11F7BA168A9CDD0006225F /* TKSecondViewController.m in Sources */,
+				AB11F7BD168A9CE80006225F /* TKThirdViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB11F767168A9BFE0006225F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB11F768168A9BFE0006225F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB11F776168A9BFF0006225F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB11F777168A9BFF0006225F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB11F779168A9BFF0006225F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomTabBarController/CustomTabBarController-Prefix.pch";
+				INFOPLIST_FILE = "CustomTabBarController/CustomTabBarController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = TKTabBarController;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AB11F77A168A9BFF0006225F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomTabBarController/CustomTabBarController-Prefix.pch";
+				INFOPLIST_FILE = "CustomTabBarController/CustomTabBarController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = TKTabBarController;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB11F754168A9BFE0006225F /* Build configuration list for PBXProject "TKTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB11F776168A9BFF0006225F /* Debug */,
+				AB11F777168A9BFF0006225F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB11F778168A9BFF0006225F /* Build configuration list for PBXNativeTarget "TKTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB11F779168A9BFF0006225F /* Debug */,
+				AB11F77A168A9BFF0006225F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB11F751168A9BFE0006225F /* Project object */;
+}
