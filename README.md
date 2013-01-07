@@ -1,7 +1,7 @@
 TKTabBarController
 ==================
 
-可以自定义普通和按下图片，选中效果的自定义TabbarController
+可以自定义普通和按下图片，选中效果的自定义TabbarController, 支持ios4.3以上。
 
 使用方法：
     
